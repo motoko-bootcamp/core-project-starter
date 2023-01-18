@@ -18,7 +18,7 @@ A few more things:
 ## Instructions to deploy 
 Install the necessary packages.
 ```
-npm run install
+npm install
 ```
 Generate the interfaces
 ```
