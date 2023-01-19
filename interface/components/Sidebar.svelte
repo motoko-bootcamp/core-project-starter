@@ -21,13 +21,13 @@
   }
 </script>
 
-<nav class:expanded={isExpanded} on:mouseover={() => mouseover()}>
+<nav class:expanded={isExpanded} on:mouseover={() => mouseover()} on:focus={() => mouseover()}>
   <ul>
     {#if isExpanded}
-      <li on:click={() => handleHome()}>🏠 Home</li>
-      <li on:click={() => handleView()}>🚀 View</li>
-      <li on:click={() => handleCreate()}>⭐️ Create</li>
-      <li on:click={() => handleVote()}>🗑 Vote</li>
+      <li on:click={() => handleHome()} on:keypress={() => handleHome()}>🏠 Home</li>
+      <li on:click={() => handleView()} on:keypress={() => handleView()}>🚀 View</li>
+      <li on:click={() => handleCreate()} on:keypress={() => handleCreate()}>⭐️ Create</li>
+      <li on:click={() => handleVote()} on:keypress={() => handleVote()}>🗑 Vote</li>
     {/if}
   </ul>
 </nav>
