@@ -8,6 +8,7 @@
     if (!dao) {
       return
     }
+    console.log("Principal", principal)
     let res = await dao.get_all_proposals()
     console.log("Proposals", res)
     return res

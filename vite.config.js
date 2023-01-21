@@ -54,7 +54,8 @@ const canisterDefinitions = Object.entries(canisterIds).reduce(
 )
 
 // Gets the port dfx is running on from dfx.json
-const DFX_PORT = dfxJson.networks.local.bind.split(":")[1]
+//const DFX_PORT = dfxJson.networks.local.bind.split(":")[1]
+const DFX_PORT = "4943";
 
 // See guide on how to configure Vite at:
 // https://vitejs.dev/config/

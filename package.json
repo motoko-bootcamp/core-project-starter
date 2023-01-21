@@ -7,8 +7,8 @@
     "serve": "vite preview"
   },
   "dependencies": {
-    "@dfinity/agent": "^0.15.1",
-    "@dfinity/principal": "^0.15.1",
+    "@dfinity/agent": "0.13.3",
+    "@dfinity/principal": "0.13.3",
     "flowbite-svelte": "^0.29.10",
     "svelte-heros": "^2.4.3"
   },

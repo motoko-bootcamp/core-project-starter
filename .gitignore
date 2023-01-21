@@ -6,3 +6,7 @@
 # Mac OSX temporary files
 .DS_Store
 **/.DS_Store
+
+node_modules/
+.dfx
+canister_ids.json
